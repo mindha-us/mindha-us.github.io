@@ -144,6 +144,37 @@
             margin: 0;
         }
 
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 40px;
+            border: 1px solid #E5E5E5;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            font-size: 24px;
+            margin: 0 0 16px;
+        }
+
+        .project-card p {
+            color: #666;
+            margin: 0;
+        }
+
         /* Contact Form */
         .contact-form {
             max-width: 540px;
@@ -229,7 +260,7 @@
         }
 
         @media (max-width: 768px) {
-            .services-grid {
+            .services-grid, .projects-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -253,6 +284,7 @@
             </a>
             <div class="nav-links">
                 <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 <a href="#contact" class="button">Get in touch</a>
@@ -284,6 +316,18 @@
                     <h3>Implementation</h3>
                     <p>End-to-end deployment support, including training, monitoring, and optimization.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <a href="homegear/" class="project-card">
+                    <h3>HomeGear</h3>
+                    <p>AI-powered home maintenance and equipment management platform that streamlines maintenance tracking, provides instant recognition of equipment models, and maintains a digital library of manuals and documentation.</p>
+                </a>
             </div>
         </div>
     </section>
@@ -326,6 +370,7 @@
                     <h4>Company</h4>
                     <a href="#about">About</a>
                     <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
                 </div>
                 <div class="footer-links">

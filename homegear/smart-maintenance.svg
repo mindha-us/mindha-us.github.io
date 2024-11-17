@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <rect width="200" height="150" fill="#f8fafc"/>
+  <!-- Gear -->
+  <circle cx="100" cy="75" r="30" fill="#4f46e5" fill-opacity="0.1" stroke="#4f46e5" stroke-width="2"/>
+  <circle cx="100" cy="75" r="20" fill="none" stroke="#4f46e5" stroke-width="2"/>
+  <!-- Gear teeth -->
+  <g stroke="#4f46e5" stroke-width="2">
+    <line x1="100" y1="35" x2="100" y2="45"/>
+    <line x1="100" y1="105" x2="100" y2="115"/>
+    <line x1="60" y1="75" x2="70" y2="75"/>
+    <line x1="130" y1="75" x2="140" y2="75"/>
+    <!-- Diagonal lines -->
+    <line x1="75" y1="50" x2="82" y2="57"/>
+    <line x1="118" y1="93" x2="125" y2="100"/>
+    <line x1="75" y1="100" x2="82" y2="93"/>
+    <line x1="118" y1="57" x2="125" y2="50"/>
+  </g>
+  <!-- Smart indicator -->
+  <circle cx="140" cy="40" r="10" fill="#ffffff" stroke="#4f46e5"/>
+  <circle cx="140" cy="40" r="5" fill="#4f46e5"/>
+</svg> 
