@@ -16,7 +16,9 @@ body {
 
 /* Navigation */
 .nav-content {
+    /* Change to allow natural flow and wrapping if needed */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2rem;
@@ -24,11 +26,15 @@ body {
     border-bottom: 1px solid #374151;
 }
 
+
 .nav-logo {
+    /* Set a reasonable max-width to prevent overlapping */
     display: flex;
     align-items: center;
     gap: 1rem;
     text-decoration: none;
+    flex-shrink: 0;
+    max-width: 60%;
 }
 
 .nav-logo .icon {
@@ -36,13 +42,18 @@ body {
 }
 
 .nav-logo .wordmark {
-    height: 1.5rem;
+    height: 3rem;
+    /* Ensure the image scales properly */
+    width: auto;
+    max-width: 100%;
 }
 
 .nav-links {
     display: flex;
     gap: 2rem;
     align-items: center;
+    /* Remove fixed margin and allow natural flow */
+    flex-shrink: 0;
 }
 
 .nav-links a {

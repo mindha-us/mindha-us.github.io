@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
   <!-- "mind" with organic style and connected nodes -->
-  <g fill="none" stroke="#2D3748">
+  <g fill="none" stroke="#374151">
     <!-- Thin connecting lines between nodes -->
-    <g stroke="#4299E1" stroke-width="0.5" opacity="0.3">
+    <g stroke="#a78bfa" stroke-width="0.75" opacity="0.25">
       <!-- Connect existing nodes -->
       <path d="M 50,30 L 65,40 L 80,40"/>
       <path d="M 65,40 L 95,30"/>
@@ -40,60 +40,72 @@
              M 65,40
              C 65,35 75,35 80,40
              C 80,50 80,60 80,70"
-          stroke-width="4"
+          stroke-width="4.5"
           stroke-linecap="round"
           stroke-linejoin="round"/>
     <!-- m nodes -->
-    <circle cx="50" cy="30" r="2.5" fill="#4299E1"/>
-    <circle cx="65" cy="40" r="2.5" fill="#4299E1"/>
-    <circle cx="80" cy="40" r="2.5" fill="#4299E1"/>
+    <circle cx="50" cy="30" r="3" fill="#a78bfa"/>
+    <circle cx="65" cy="40" r="3" fill="#a78bfa"/>
+    <circle cx="80" cy="40" r="3" fill="#a78bfa"/>
     <!-- Additional m nodes -->
-    <circle cx="50" cy="50" r="2" fill="#4299E1"/>
-    <circle cx="65" cy="55" r="2" fill="#4299E1"/>
-    <circle cx="80" cy="60" r="2" fill="#4299E1"/>
+    <circle cx="50" cy="50" r="2.5" fill="#a78bfa"/>
+    <circle cx="65" cy="55" r="2.5" fill="#a78bfa"/>
+    <circle cx="80" cy="60" r="2.5" fill="#a78bfa"/>
     
     <!-- i - curved, shorter -->
     <path d="M 95,40 
              C 95,50 95,60 95,70"
-          stroke-width="4"
+          stroke-width="4.5"
           stroke-linecap="round"/>
-    <circle cx="95" cy="30" r="2.5" fill="#4299E1"/>
-    <circle cx="95" cy="70" r="2.5" fill="#4299E1"/>
+    <circle cx="95" cy="30" r="3" fill="#a78bfa"/>
+    <circle cx="95" cy="70" r="3" fill="#a78bfa"/>
     <!-- Additional i node -->
-    <circle cx="95" cy="55" r="2" fill="#4299E1"/>
+    <circle cx="95" cy="55" r="2.5" fill="#a78bfa"/>
     
     <!-- n - flowing -->
     <path d="M 110,70
              C 110,50 110,40 110,30
              C 110,40 120,35 125,40
              C 125,50 125,60 125,70"
-          stroke-width="4"
+          stroke-width="4.5"
           stroke-linecap="round"
           stroke-linejoin="round"/>
     <!-- n nodes -->
-    <circle cx="110" cy="30" r="2.5" fill="#4299E1"/>
-    <circle cx="125" cy="40" r="2.5" fill="#4299E1"/>
+    <circle cx="110" cy="30" r="3" fill="#a78bfa"/>
+    <circle cx="125" cy="40" r="3" fill="#a78bfa"/>
     <!-- Additional n nodes -->
-    <circle cx="110" cy="50" r="2" fill="#4299E1"/>
-    <circle cx="125" cy="55" r="2" fill="#4299E1"/>
+    <circle cx="110" cy="50" r="2.5" fill="#a78bfa"/>
+    <circle cx="125" cy="55" r="2.5" fill="#a78bfa"/>
     
     <!-- d - flowing but clear -->
     <path d="M 145,15 
              C 145,30 145,60 145,70
              C 145,65 135,65 135,50
              C 135,35 145,40 145,40"
-          stroke-width="4"
+          stroke-width="4.5"
           stroke-linecap="round"
           stroke-linejoin="round"/>
     <!-- d nodes -->
-    <circle cx="145" cy="15" r="2.5" fill="#4299E1"/>
-    <circle cx="135" cy="50" r="2.5" fill="#4299E1"/>
-    <circle cx="145" cy="70" r="2.5" fill="#4299E1"/>
+    <circle cx="145" cy="15" r="3" fill="#a78bfa"/>
+    <circle cx="135" cy="50" r="3" fill="#a78bfa"/>
+    <circle cx="145" cy="70" r="3" fill="#a78bfa"/>
     <!-- Additional d node -->
-    <circle cx="145" cy="40" r="2" fill="#4299E1"/>
+    <circle cx="145" cy="40" r="2.5" fill="#a78bfa"/>
+
+    <!-- Node highlights -->
+    <circle cx="50" cy="30" r="1.5" fill="#c4b5fd"/>
+    <circle cx="65" cy="40" r="1.5" fill="#c4b5fd"/>
+    <circle cx="80" cy="40" r="1.5" fill="#c4b5fd"/>
+    <circle cx="95" cy="30" r="1.5" fill="#c4b5fd"/>
+    <circle cx="110" cy="30" r="1.5" fill="#c4b5fd"/>
+    <circle cx="125" cy="40" r="1.5" fill="#c4b5fd"/>
+    <circle cx="145" cy="15" r="1.5" fill="#c4b5fd"/>
+    <circle cx="135" cy="50" r="1.5" fill="#c4b5fd"/>
+    <circle cx="145" cy="70" r="1.5" fill="#c4b5fd"/>
   </g>
+
   <!-- "haus" with geometric style -->
-  <g fill="none" stroke="#2D3748" stroke-width="4" stroke-linecap="square">
+  <g fill="none" stroke="#4b5563" stroke-width="4.5" stroke-linecap="square">
     <!-- h -->
     <path d="M 165,20 L 165,70
              M 165,45 L 185,45
