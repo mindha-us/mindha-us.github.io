@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
   <!-- "mind" with organic style and connected nodes -->
-  <g fill="none" stroke="#374151">
+  <g fill="none" stroke="#9ca3af">
     <!-- Thin connecting lines between nodes -->
     <g stroke="#a78bfa" stroke-width="0.75" opacity="0.25">
       <!-- Connect existing nodes -->
@@ -105,7 +105,7 @@
   </g>
 
   <!-- "haus" with geometric style -->
-  <g fill="none" stroke="#4b5563" stroke-width="4.5" stroke-linecap="square">
+  <g fill="none" stroke="#9ca3af" stroke-width="4.5" stroke-linecap="square">
     <!-- h -->
     <path d="M 165,20 L 165,70
              M 165,45 L 185,45

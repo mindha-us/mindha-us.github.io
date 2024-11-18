@@ -1,18 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" preserveAspectRatio="xMidYMid meet">
-  <!-- Definitions for reusable elements -->
-  <defs>
-    <linearGradient id="neural-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3498DB"/>
-      <stop offset="100%" style="stop-color:#2980B9"/>
-    </linearGradient>
-  </defs>
-
   <!-- Logo Group -->
   <g transform="translate(10, 10)">
     <!-- Central hexagon representing AI core -->
     <polygon points="45,25 65,35 65,65 45,75 25,65 25,35" 
              fill="none" 
-             stroke="url(#neural-gradient)" 
+             stroke="#e5e7eb" 
              stroke-width="2"/>
     
     <!-- Emanating thought/data patterns -->
@@ -22,34 +14,34 @@
              C60 55, 75 65, 75 40
              C75 15, 60 25, 45 15" 
           fill="none" 
-          stroke="#3498DB" 
+          stroke="#e5e7eb" 
           stroke-width="1.5"
           stroke-dasharray="2,2"/>
     
     <!-- Neural network nodes -->
-    <circle cx="45" cy="25" r="2" fill="#3498DB"/>
-    <circle cx="65" cy="35" r="2" fill="#3498DB"/>
-    <circle cx="65" cy="65" r="2" fill="#3498DB"/>
-    <circle cx="45" cy="75" r="2" fill="#3498DB"/>
-    <circle cx="25" cy="65" r="2" fill="#3498DB"/>
-    <circle cx="25" cy="35" r="2" fill="#3498DB"/>
+    <circle cx="45" cy="25" r="2" fill="#f3f4f6"/>
+    <circle cx="65" cy="35" r="2" fill="#f3f4f6"/>
+    <circle cx="65" cy="65" r="2" fill="#f3f4f6"/>
+    <circle cx="45" cy="75" r="2" fill="#f3f4f6"/>
+    <circle cx="25" cy="65" r="2" fill="#f3f4f6"/>
+    <circle cx="25" cy="35" r="2" fill="#f3f4f6"/>
     
     <!-- Dynamic connection lines -->
     <path d="M45 25 L65 35 L65 65 L45 75 L25 65 L25 35 Z" 
           fill="none" 
-          stroke="#3498DB" 
+          stroke="#e5e7eb" 
           stroke-width="1" 
           stroke-dasharray="3,3"/>
     
     <!-- Pulse circles (representing active AI) -->
     <circle cx="45" cy="50" r="20" 
             fill="none" 
-            stroke="#3498DB" 
+            stroke="#e5e7eb" 
             stroke-width="0.5" 
             opacity="0.3"/>
     <circle cx="45" cy="50" r="15" 
             fill="none" 
-            stroke="#3498DB" 
+            stroke="#e5e7eb" 
             stroke-width="0.5" 
             opacity="0.5"/>
     
@@ -58,7 +50,7 @@
           font-family="Arial, sans-serif" 
           font-weight="bold" 
           font-size="36" 
-          fill="#2C3E50">
+          fill="#f9fafb">
       MINDHAUS
     </text>
   </g>
