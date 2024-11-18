@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- Base Container -->
+  <rect x="40" y="30" width="120" height="90" fill="#1f2937" stroke="#e5e7eb" stroke-width="1.5"/>
+  
+  <!-- Background grid suggesting development environment -->
+  <g stroke="#374151" stroke-width="0.5" opacity="0.5">
+    <line x1="60" y1="45" x2="140" y2="45"/>
+    <line x1="60" y1="105" x2="140" y2="105"/>
+    <line x1="60" y1="45" x2="60" y2="105"/>
+    <line x1="140" y1="45" x2="140" y2="105"/>
+  </g>
+
+  <!-- Code brackets representing development -->
+  <g stroke="#a78bfa" stroke-width="1.5" fill="none">
+    <!-- Left bracket with decorative ends -->
+    <path d="M80 55 L70 55 L70 95 L80 95" stroke-linejoin="round"/>
+    <circle cx="80" cy="55" r="2" fill="#a78bfa"/>
+    <circle cx="80" cy="95" r="2" fill="#a78bfa"/>
+    
+    <!-- Right bracket with decorative ends -->
+    <path d="M120 55 L130 55 L130 95 L120 95" stroke-linejoin="round"/>
+    <circle cx="120" cy="55" r="2" fill="#a78bfa"/>
+    <circle cx="120" cy="95" r="2" fill="#a78bfa"/>
+  </g>
+
+  <!-- Left side development indicators -->
+  <g stroke="#374151" stroke-width="1">
+    <line x1="50" y1="65" x2="65" y2="65"/>
+    <line x1="50" y1="75" x2="65" y2="75"/>
+    <line x1="50" y1="85" x2="65" y2="85"/>
+  </g>
+
+  <!-- Central development element -->
+  <rect x="85" y="55" width="30" height="40" 
+        fill="#a78bfa" fill-opacity="0.1" 
+        stroke="#a78bfa" stroke-width="1.5"/>
+  
+  <!-- Connection dots pattern -->
+  <g stroke="#a78bfa" stroke-width="1.5" fill="none">
+    <circle cx="93" cy="63" r="3"/>
+    <circle cx="93" cy="75" r="3"/>
+    <circle cx="93" cy="87" r="3"/>
+    <circle cx="107" cy="63" r="3"/>
+    <circle cx="107" cy="75" r="3"/>
+    <circle cx="107" cy="87" r="3"/>
+  </g>
+
+  <!-- Right side element suggesting output/deployment -->
+  <g stroke="#a78bfa" stroke-width="1.5" fill="none">
+    <path d="M135 70 L145 75 L135 80" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Active development indicator -->
+  <path d="M85 45 L85 50 M82.5 47.5 L87.5 47.5" 
+        stroke="#a78bfa" 
+        stroke-width="1.5"
+        stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Server/Database Symbol -->
+  <g transform="translate(30, 30)">
+    <rect x="0" y="0" width="75" height="115" fill="#374151" stroke="#e5e7eb" strokeWidth="1.5"/>
+    <line x1="0" y1="29" x2="75" y2="29" stroke="#e5e7eb" strokeWidth="1.5"/>
+    <line x1="0" y1="58" x2="75" y2="58" stroke="#e5e7eb" strokeWidth="1.5"/>
+  </g>
+
+  <!-- Central Deployment Pipeline -->
+  <g transform="translate(120, 37)">
+    <rect x="0" y="0" width="85" height="100" fill="#1f2937" stroke="#e5e7eb" strokeWidth="1.5"/>
+    <line x1="10" y1="30" x2="75" y2="30" stroke="#a78bfa" strokeWidth="2"/>
+    <line x1="10" y1="60" x2="75" y2="60" stroke="#a78bfa" strokeWidth="2" opacity="0.6"/>
+    
+    <!-- Circular Progress Indicators -->
+    <circle cx="25" cy="85" r="5" fill="#a78bfa"/>
+    <circle cx="45" cy="85" r="5" fill="#a78bfa"/>
+    <circle cx="65" cy="85" r="5" fill="#a78bfa"/>
+  </g>
+
+  <!-- Monitoring Graph -->
+  <g transform="translate(220, 30)">
+    <rect x="0" y="0" width="75" height="115" fill="#374151" stroke="#e5e7eb" strokeWidth="1.5"/>
+    <!-- Simplified Graph Line -->
+    <path d="M10 85 L30 55 L45 70 L65 40" stroke="#a78bfa" strokeWidth="2" fill="none"/>
+    <circle cx="65" cy="40" r="5" fill="#a78bfa"/>
+  </g>
+
+  <!-- Connecting Lines -->
+  <path d="M105 87 L120 89" stroke="#a78bfa" strokeWidth="2" opacity="0.6"/>
+  <path d="M205 89 L220 87" stroke="#a78bfa" strokeWidth="2" opacity="0.6"/>
+
+  <!-- Status Indicators -->
+  <circle cx="65" cy="20" r="6" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="255" cy="20" r="6" fill="#a78bfa" opacity="0.8"/>
+</svg>

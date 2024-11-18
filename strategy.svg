@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- Background -->
+  <rect x="40" y="30" width="120" height="90" fill="#1f2937" stroke="#e5e7eb" stroke-width="1.5"/>
+  
+  <!-- Strategic roadmap path -->
+  <path d="M60 95 L80 95 L80 75 L120 75 L120 55" 
+        stroke="#a78bfa" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- Progress points -->
+  <circle cx="60" cy="95" r="4" fill="#a78bfa"/>
+  <circle cx="80" cy="75" r="4" fill="#a78bfa"/>
+  <circle cx="120" cy="55" r="4" fill="#a78bfa"/>
+  
+  <!-- Advisory elements -->
+  <g stroke="#374151" stroke-width="1">
+    <!-- Progress lines -->
+    <line x1="50" y1="105" x2="150" y2="105"/>
+    <line x1="50" y1="85" x2="150" y2="85"/>
+    <line x1="50" y1="65" x2="150" y2="65"/>
+    <line x1="50" y1="45" x2="150" y2="45"/>
+  </g>
+  
+  <!-- Growth indicator -->
+  <path d="M135 85 L140 80 L145 85" 
+        stroke="#a78bfa" 
+        stroke-width="1.5" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+        
+  <!-- Goal marker -->
+  <circle cx="120" cy="55" r="8" 
+          fill="#a78bfa" 
+          fill-opacity="0.1" 
+          stroke="#a78bfa" 
+          stroke-width="1.5"/>
+</svg>
