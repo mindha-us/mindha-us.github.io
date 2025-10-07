@@ -13,6 +13,28 @@ body {
     padding: 0 1rem;
 }
 
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #a78bfa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.back-link:hover {
+    color: #9061f9;
+    transform: translateX(-4px);
+}
+
+.back-link i {
+    font-size: 0.875rem;
+}
+
 .slide-container {
     background-color: #111827;
     border-radius: 1rem;
